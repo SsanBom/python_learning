@@ -69,7 +69,7 @@ def construct_histogram(series, hist_title):
     plt.show()
 
 
-#save_to_file("dataset.txt", __generate_random_sequence())
+save_to_file("dataset.txt", __generate_random_sequence())
 data_number_sequence = read_int_file("dataset.txt")
 series = pd.Series(data_number_sequence)
 
